@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'inisio',
+    loadChildren: () => import('./inisio/inisio.module').then( m => m.InisioPageModule)
+  },
+  {
+    path: 'crear',
+    loadChildren: () => import('./crear/crear.module').then( m => m.CrearPageModule)
+  },
 ];
 
 @NgModule({
