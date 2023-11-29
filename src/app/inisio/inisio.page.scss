@@ -24,6 +24,15 @@
     left: 25px;
     top: 13px;
 }
+.flecha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
 .labela{
     color: var(--additional-white, #111827);
     text-align: center;

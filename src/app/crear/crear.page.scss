@@ -17,6 +17,24 @@
     position: absolute;
     inset: 0;
 }
+.flecha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+.labela{
+    color: var(--additional-white, #111827);
+    text-align: center;
+    font: 700 16px/150% "Inter-Bold", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .text {
     display: flex;
     flex-direction: column;
